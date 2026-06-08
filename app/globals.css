@@ -24,3 +24,34 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+body {
+  background: #030712;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  width: 600px;
+  height: 600px;
+  background: rgba(34, 211, 238, 0.15);
+  filter: blur(120px);
+  top: -200px;
+  left: -200px;
+  z-index: -1;
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  width: 500px;
+  height: 500px;
+  background: rgba(59, 130, 246, 0.15);
+  filter: blur(120px);
+  bottom: -200px;
+  right: -200px;
+  z-index: -1;
+}
+html {
+  scroll-behavior: smooth;
+}
