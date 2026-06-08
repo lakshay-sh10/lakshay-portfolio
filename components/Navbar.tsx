@@ -7,7 +7,7 @@ export default function Navbar() {
           Lakshay
         </h1>
 
-        <div className="flex gap-8">
+        <div className="hidden md:flex gap-8">
 
   <a href="#about">About</a>
 

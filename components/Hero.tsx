@@ -22,7 +22,7 @@ export default function Hero() {
         </h1>
 
         <h2 className="text-xl md:text-3xl text-gray-400 mt-6">
-          Full Stack Developer | AI Engineer | Cloud Enthusiast
+          Software Engineer • Full Stack Developer • AI/ML Engineer
         </h2>
 
         <p className="text-gray-500 mt-6 max-w-2xl mx-auto text-lg">
@@ -30,7 +30,7 @@ export default function Hero() {
           scalable APIs, and cloud-powered systems.
         </p>
 
-        <div className="flex flex-wrap justify-center gap-4 mt-10">
+        <div className="flex flex-col sm:flex-row justify-center gap-4 mt-10">
 
           <a
   href="#projects"

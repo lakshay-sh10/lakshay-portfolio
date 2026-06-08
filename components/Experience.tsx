@@ -31,7 +31,7 @@ export default function Experience() {
         {experiences.map((exp) => (
           <div
             key={exp.title}
-            className="bg-white/5 border border-white/10 rounded-2xl p-6"
+            className="bg-white/5 border border-white/10 rounded-2xl p-6 max-w-xl mx-auto"
           >
             <h3 className="text-xl font-bold">
               {exp.title}

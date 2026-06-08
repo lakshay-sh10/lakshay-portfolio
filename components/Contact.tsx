@@ -20,7 +20,7 @@ export default function Contact() {
           Interested in working together? Let's connect.
         </p>
 
-        <div className="flex gap-8 text-3xl">
+        <div className="flex justify-center gap-8 text-3xl">
 
           <a
             href="https://github.com/lakshay-sh10"
